@@ -1,12 +1,10 @@
 from turtle import *
 
-
 # Doraemon with Python Turtle
 def ankur(x, y):
     penup()
     goto(x, y)
     pendown()
-
 
 def aankha():
     fillcolor("#ffffff")
@@ -25,7 +23,6 @@ def aankha():
             fd(a)
     tracer(True)
     end_fill()
-
 
 def daari():
     ankur(-32, 135)
@@ -52,7 +49,6 @@ def daari():
     seth(-13)
     fd(60)
 
-
 def mukh():
     ankur(5, 148)
     seth(270)
@@ -61,7 +57,6 @@ def mukh():
     circle(120, 50)
     seth(230)
     circle(-120, 100)
-
 
 def muflar():
     fillcolor('#e70010')
